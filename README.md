@@ -15,10 +15,14 @@
 ---
 
 ### Memory
+<div align="center">
+
 | Type  | Capacity | Notes |
 |--------|-----------|--------|
 | Flash  | 64 / 128 KB | Non-volatile program storage |
 | SRAM   | 20 KB | Volatile data memory |
+
+</div>
 
 ---
 
@@ -29,11 +33,15 @@
 - **External 32.768 kHz Oscillator:** for RTC
 
 ### Clock Domains
+<div align="center">
+  
 | Bus | Max Frequency | Description |
 |------|----------------|-------------|
 | AHB | 72 MHz | High-speed bus |
 | APB2 | 72 MHz | High-speed peripheral bus |
 | APB1 | 36 MHz | Low-speed peripheral bus |
+
+</div>
 
 Prescalers are available to adjust frequencies for different domains.
 
@@ -79,13 +87,18 @@ The STM32F103C8 provides several power-saving modes:
 ---
 
 ### Communication Interfaces
+
+<div align="center">
+
 | Interface | Quantity | Features |
-|------------|-----------|-----------|
+|:----------:|:---------:|:----------:|
 | I²C | 2 | Standard communication |
 | USART | 3 | Up to 4.5 Mbit/s (USART1), others up to 2.25 Mbit/s |
 | SPI | 2 | Master/slave, up to 18 Mbit/s |
 | CAN | 1 | Controller Area Network interface |
 | USB | 1 | USB 2.0 full-speed (12 Mbit/s) |
+
+</div>
 
 ---
 
@@ -112,7 +125,8 @@ The STM32F103C8 provides several power-saving modes:
 ---
 
 ### Summary
-
+<div align="center">
+  
 | Category | Key Specs |
 |-----------|------------|
 | CPU | ARM Cortex-M3, 72 MHz |
@@ -125,6 +139,15 @@ The STM32F103C8 provides several power-saving modes:
 | I/O Pins | Up to 80 |
 | DMA | 7 Channels |
 
+</div>
+
+---
+
+### System architecture
+<p align="center">
+  <img width="1097" height="658" alt="image" src="https://github.com/user-attachments/assets/6c985383-71c7-4c14-9a0c-dc91f715ca61" />
+</p>
+
 ---
 
 ### Around
@@ -132,8 +155,8 @@ The STM32F103C8 provides several power-saving modes:
 
 
 ### Credits
-* Julian Adrian Viana Palomo
-* Facultad de matematicas UADY 2025
+* <h4 src="https://www.linkedin.com/in/julian-adrian-viana-palomo-29363a313/"> Julian Adrian Viana Palomo </h4>
+* <h4 src="https://www.matematicas.uady.mx/" > Facultad de matematicas UADY 2025 </h4> 
 
 ### References
 * Maxim Integrated. (2002). MAX7219/MAX7221: Serially interfaced, 8-digit LED display drivers (Rev. 2002). Maxim Integrated Products. https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf
