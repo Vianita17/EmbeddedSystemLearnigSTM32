@@ -145,7 +145,7 @@ The STM32F103C8 provides several power-saving modes:
 
 ### System architecture
 <p align="center">
-  <img width="1097" height="658" alt="image" src="https://github.com/user-attachments/assets/6c985383-71c7-4c14-9a0c-dc91f715ca61" />
+  <img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/6c985383-71c7-4c14-9a0c-dc91f715ca61" />
 </p>
 
 ---
