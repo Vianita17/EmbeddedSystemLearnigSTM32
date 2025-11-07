@@ -4,6 +4,13 @@
 **Core:** ARM Cortex-M3 32-bit RISC  
 **Maximum CPU Frequency:** 72 MHz  
 
+<div align="center">
+  
+ <img width="381" height="320" alt="image" src="https://github.com/user-attachments/assets/9ae69137-bbe3-4102-ad79-0cc6df7efc3c" />
+
+ 
+ </div>
+ 
 ---
 
 ### CPU & Core Features
